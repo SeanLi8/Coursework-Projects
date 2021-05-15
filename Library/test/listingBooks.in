@@ -1,0 +1,21 @@
+add collection books.csv
+add collection books2.csv
+list all
+list all long
+list available 
+list available long
+number copies
+add member Sean li
+rent 100000 200001
+rent 100000 200002
+rent 100000 200003
+rent 100000 200004
+rent 100000 200005
+rent 100000 200006
+rent 100000 200007
+rent 100000 200008
+list available
+list available long
+list all 
+list all long
+exit

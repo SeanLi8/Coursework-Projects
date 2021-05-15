@@ -1,0 +1,26 @@
+add collection books.csv
+add member Sean Li
+add member Neas Il
+common 999999 888888
+common 100000 999999 
+common 100000 100001
+rent 100000 111122
+rent 100000 111121
+rent 100000 111125
+rent 100000 111126
+rent 100000 111127
+relinquish all 100000
+rent 100001 111125
+rent 100001 111126
+rent 100001 111127
+relinquish all 100001
+common 100000 100001
+rent 100000 111111
+rent 100001 111134
+relinquish all 100000
+relinquish all 100001
+member history 100000
+member history 100001
+common 100000 100001
+exit
+

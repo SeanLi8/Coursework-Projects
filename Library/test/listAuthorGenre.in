@@ -1,0 +1,14 @@
+add collection books.csv
+add collection books2.csv
+list genres
+list authors
+genre not a genre
+genre yes
+genre Romantic Comedy
+genre Comedy
+genre Historical Fiction
+author sean li
+author Homer
+author Akasaka Aka
+exit
+

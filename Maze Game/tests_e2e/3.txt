@@ -1,0 +1,5 @@
+Tests program behaviour when waling out of game bounds via edge start and end points:
+    game should respond like the player has walked into a wall
+Tests behaviour when the player walks into fire with no water buckets:
+    game should end with player losing
+    program should stop running

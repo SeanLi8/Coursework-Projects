@@ -1,0 +1,5 @@
+For the csv files produced from readAndWrite.in (combined.csv and booksDupe.csv)
+please use diff with corresponding combined-expected.csv and booksDupe-expected.csv
+to check if the correct file has been written
+
+thanks

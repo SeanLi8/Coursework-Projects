@@ -1,0 +1,10 @@
+Tests the behaviour of program with boards using starting and ending points which are not on the edges
+Tests the behaviour of teleporter pads:
+    player position is set to corresponding teleport pad
+    teleportation message is displayed when stepped on
+    waiting on teleport pad activates it (move=e)
+Tests the water and fire interactions:
+    water buckets should be updated from 0 to 1 when player steps on water 
+    water buckets should be updated from 1 to 0 when player steps on fire
+    fire and water cells should be replaced by air after stepped on
+

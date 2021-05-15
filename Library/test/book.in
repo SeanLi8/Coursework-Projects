@@ -1,0 +1,10 @@
+book 111111
+book 111111 long
+add book books.csv 111111
+book 111111
+book 111111 long
+book history 111111
+add member sean
+rent 100000 111111
+book 111111 long
+exit

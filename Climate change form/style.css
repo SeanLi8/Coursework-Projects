@@ -1,0 +1,88 @@
+*{font-family:'Times New Roman', Times, serif}
+.answer{
+    font:20px 'Times New Roman'; 
+    color:black;
+    margin-left: 10px;
+}
+ul{list-style:none}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+select{
+    width: 20%;
+  padding: 12px 20px;
+  background-color: #f1f1f1;;
+  }
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+input[type=text].smalltext { width: 20%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    box-sizing: border-box;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #3CBC8D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+body{
+    margin-left:80px; 
+    margin-right:80px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input[type=checkbox] {
+    cursor: pointer;
+    margin-left: 30px;
+    color: #3CBC8D;
+    
+  }
+input[type=radio]{
+    margin-left: -10px;
+}
+.longresponse{
+    width: 50%;
+    height: 50px;
+    box-sizing: border-box;
+    resize: none;          
+}
+.field{
+    color:#3CBC8D;
+    font:20px 'Times New Roman' ;
+}
+fieldset.innerform{
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+}
+fieldset.outterform{
+    background-color: white;
+    border-width: 5px;
+    border-color: #3CBC8D;
+    border-radius: 3px;
+
+}
+legend{
+    color:#3CBC8D;
+    font:30px 'Times New Roman'
+    
+}
+h1{
+    color:#3CBC8D
+}

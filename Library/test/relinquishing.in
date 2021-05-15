@@ -1,0 +1,54 @@
+add collection books.csv
+add member Sean Li
+add member Neas Il
+rent 100000 111122
+rent 100000 111121
+rent 100001 111125
+rent 100001 111126
+rent 100001 111127
+book history 111122
+book history 111121
+book history 111125
+book history 111126
+book history 111127
+member books 100000
+member books 100001
+member history 100000
+member history 100001
+relinquish 999999 111122
+relinquish 100000 999999
+relinquish 100000 1111127
+book history 111122
+book history 111121
+book history 111125
+book history 111126
+book history 111127
+member books 100000
+member books 100001
+member history 100000
+member history 100001
+relinquish 100000 111122
+book history 111122
+book history 111121
+book history 111125
+book history 111126
+book history 111127
+member books 100000
+member books 100001
+member history 100000
+member history 100001
+relinquish all 999999
+relinquish all 100001
+book history 111122
+book history 111121
+book history 111125
+book history 111126
+book history 111127
+member books 100000
+member books 100001
+member history 100000
+member history 100001
+exit
+
+
+

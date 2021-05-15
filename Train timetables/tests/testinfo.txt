@@ -1,0 +1,13 @@
+single_station1:ordered times,suitable trains,single source and destination pair
+multiple_stations1:ordered times, suitable trains,2 source and destination pairs
+multiple_stations2:unordered times,suitable trains,3 source and destination pairs
+no_suitable:ordered times,no suitable trains,single source and destination pair
+next_day:ordered times,optimal train is on next day,single source and destination pair
+bad_input:number of arguments is not 4
+bad_input_time1:time in argument is invalid because of time string length
+bad_input_time2:time in argument is invalid because of non-time numbers
+bad_list1:ordered times,suitable trains,single source and destination pair,some lines do not have 3 "::" delimited fields, these lines should be skipped
+bad_list2:ordered times,suitable trains,single source and destination pair,some line have invalid time formats, these line should be skipped, note that the timeFormatTest() function has been tested in bad_input_timeX aswell
+big_list:ordered times,suitable trains,single source and destination pair,timetable file exceeds stack memory assumed to be 1GB,there are 2.5 million lines which would take atleast 1.02GB to store in stack memory assuming we store every line, test takes about 15 seconds
+long_line:ordered times,suitable trains,single source and destination pair, a line from the list file is longer than maximum allowed
+no_timetable:no valid entries in input

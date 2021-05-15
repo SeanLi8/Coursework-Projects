@@ -1,0 +1,10 @@
+ADD COLLECTION books.csv
+add MEMBER Sean Li
+aDd MeMBeR Neas Il
+Add BooK books2.csv 200001
+RENT 100000 200001
+list AVAILABLE
+relinquISH 100000 200001
+LIST ALL LONG
+MEMBER history 100000
+exit

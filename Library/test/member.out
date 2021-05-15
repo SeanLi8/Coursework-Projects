@@ -1,0 +1,15 @@
+user: No members in system.
+
+user: Success.
+
+user: 100000: john
+
+user: Success.
+
+user: 100001: john smith
+
+user: Success.
+
+user: 100002: john middle1 middle2 middle3 smith
+
+user: Ending Library process.

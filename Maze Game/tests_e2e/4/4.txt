@@ -1,0 +1,2 @@
+Tests behaviour of program when move 'q' is inputted:
+    program should print 'bye' and stop execution

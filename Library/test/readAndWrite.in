@@ -1,0 +1,19 @@
+save collection test/combined.csv
+list all
+add book books.csv 999999 
+add book yes.csv 111111
+list all
+add book books.csv 111111
+list all
+add book books.csv 111111
+list all
+add book books.csv 111134
+list all
+add collection yes.csv
+add collection books.csv
+list all
+save collection test/booksDupe.csv
+add collection books2.csv
+list all
+save collection test/combined.csv
+exit

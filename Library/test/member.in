@@ -1,0 +1,8 @@
+member 100000
+add member john
+member 100000
+add member john smith
+member 100001
+add member john middle1 middle2 middle3 smith 
+member 100002
+exit

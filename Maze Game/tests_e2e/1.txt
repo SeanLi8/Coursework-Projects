@@ -1,0 +1,8 @@
+Tests normal usage of a simple board configuration
+Tests behaviour of program when player walks into wall:
+    move is not recorded at the end of game
+    player position does not change
+    correct message is displayed
+Tests behaviour when the game has been won:
+    displays correct moves made and count of moves
+    program should stop running

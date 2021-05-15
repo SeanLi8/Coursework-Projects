@@ -1,0 +1,23 @@
+commands
+add collection books.csv
+add member Sean Li
+add member Neas Il
+member 100000
+member 100001
+rent 100000 999999
+rent 999999 111111
+member books 100000
+member books 100001
+rent 100000 111111
+member books 100000
+member books 100001
+rent 100000 111112
+rent 100001 111111
+member books 100000
+member books 100001
+relinquish 100000 111111
+rent 100001 111111
+member books 100000
+member books 100001
+exit
+

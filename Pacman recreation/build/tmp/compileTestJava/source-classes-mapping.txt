@@ -1,0 +1,14 @@
+ghost/GhostImageTest.java
+ ghost.GhostImageTest
+ghost/WakaTest.java
+ ghost.WakaTest
+ghost/GhostTargetingTest.java
+ ghost.GhostTargetingTest
+ghost/ConfigReaderTest.java
+ ghost.ConfigReaderTest
+ghost/GhostMovementTest.java
+ ghost.GhostMovementTest
+ghost/AppTest.java
+ ghost.AppTest
+ghost/MapTest.java
+ ghost.MapTest

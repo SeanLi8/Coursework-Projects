@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Climate Change</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src='functions.js'></script>
+</head>
+
+<body>
+    <header>
+        <br>
+        <br>
+        <br>
+    </header>
+    <form id='form'>
+        <fieldset class="outterform">
+            <h1>Climate Change Awareness Survey</h1>
+            <p>
+                The purpose of this survey is to gather information on society's awareness of climate change. 
+            </p>
+            <fieldset class="innerform">
+                <legend class="section title">Personal Information</legend>
+                <label for="age" class="field">Age:</label>
+                <input type="text"  id="age"   class='smalltext' />
+                <p class="field">Gender:</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="female" name="gender" value='Female' />
+                        <label for="female">Female</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="male" name="gender" value='Male' />
+                        <label for="male">Male</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="n/a" name="gender" value='Unspecified'>
+                        <label for="n/a">Rather not answer</label>
+                    </li>
+                </ul>
+                <p class="field">Residence:</p>
+                <label for="suburb" >Suburb: </label>
+                <input type="text"  name='residence' id="suburb"class='smalltext'> 
+                &nbsp
+                <label for="state" >State: </label>
+                <input type="text"   name='residence' id="state" class='smalltext'>  
+                &nbsp
+                <label for="country" >Country:</label>
+                <input type="text" name='residence'  id="country" class='smalltext'>
+                <br>
+                <label for="email" class="field">email:</label>
+                <input type= "email"  id="email"  placeholder="eg. bob@hotmail.com">
+            </fieldset>
+            <fieldset class="innerform">
+                <legend>Climate Change Awareness and Knowledge</legend>
+                <label for="climatechange?" class="field">Have you heard of the concept of climate change?</label>
+                <br>
+                <br>
+                <select id="climatechange?" name="climatechange?">
+                    <option value=''> -- select an option -- </option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br>
+                <p class="field">If you answered yes, where have you heard about climate change? <em>Please mark all fields that apply</em></p>
+                <input type="checkbox" id="medium1" name="medium" value="Television">
+                <label for="medium1">Television</label>
+                <br>
+                <input type="checkbox" id="medium2" name="medium" value="Internet">
+                <label for="medium2">Internet</label>
+                <br>
+                <input type="checkbox" id="medium3" name="medium" value="School/college/university">
+                <label for="medium3">School/ college/ university</label>
+                <br>
+                <input type="checkbox" id="medium4" name="medium" value="Government agencies">
+                <label for="medium4">Government agencies</label>
+                <br>
+                <input type="checkbox" id="medium5" name="medium" value="Friends/family">
+                <label for="medium5">Friends/ family</label>
+                <br>
+                <br>
+                <label for="medium6">Other: </label>
+                <input type="text" id="medium6" name="medium"class='smalltext'>
+                <br>
+                <br>
+                <label for="weatherchange?" class="field">Do you feel the pattern of weather is generally changing?</label>
+                <br>
+                <br>
+                <select id="weatherchange?" name="weatherchange?"  >
+                    <option value=''> -- select an option -- </option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br>
+                <br>
+                <label for="weatherchangeexplain" class='field'>If you answered yes, why do you think this is happening?</label>
+                <br>
+                <br>
+                <input type=text id="weatherchangeexplain" placeholder= "Write something here">
+                <p class="field">Which of these environmental issues concern you the most? <em> Please only select upto five issues</em></p>
+                <input type="checkbox" id="issue1" name="issues" value="Air pollution">
+                <label for="issue1">Air pollution </label>
+                <br>
+                <input type="checkbox" id="issue2" name="issues" value="River and sea Pollution">
+                <label for="issue2">River and sea Pollution </label>
+                <br>
+                <input type="checkbox" id="issue3" name="issues" value="Flooding">
+                <label for="issue3">Flooding</label>
+                <br>
+                <input type="checkbox" id="issue4" name="issues" value="Poor waste management">
+                <label for="issue4">Poor waste management</label>
+                <br>
+                <input type="checkbox" id="issue5" name="issues" value="The hole in the ozone layer">
+                <label for="issue5">The hole in the ozone layer</label>
+                <br>
+                <input type="checkbox" id="issue6" name="issues" value="Using up all the earth's resources">
+                <label for="issue6">Using up all the earth's resources</label>
+                <br>
+                <input type="checkbox" id="issue7" name="issues" value="Extinction of species">
+                <label for="issue7">Extinction of species</label>
+                <br>
+                <input type="checkbox" id="issue8" name="issues" value="Radioactive waste">
+                <label for="issue8">Radioactive waste</label>
+                <br>
+                <input type="checkbox" id="issue9" name="issues" value="Overpopulation">
+                <label for="issue9">Overpopulation</label>
+                <br>
+                <br>
+                <label for="effects" class='field'>What are the effects of air pollution that you are aware of?</label>
+                <br>
+                <br>
+                <input type=text  id="effects" placeholder="Write something here" class='longresponse' >
+                <br>
+                <br>
+                <label for="causes" class='field'>What do you think causes climate change?</label>
+                <br>
+                <br>
+                <input type=text   id="causes" placeholder="Write something here" class='longresponse' >
+                <br>
+                <br>
+
+            </fieldset>
+            <fieldset class="innerform">
+                <legend>Attitudes Towards Climate Change</legend>
+                <label for="importance" class="field">How important is the issue of climate change to you personally?</label>
+                <br>
+                <br>
+                <select id="importance" name="importance" >
+                    <option value=''> -- select an option -- </option>
+                    <option value="Very important">Very important</option>
+                    <option value="Quite important">Quite important</option>
+                    <option value="Not very important">Not very important</option>
+                    <option value="Not at all important">Not at all important</option>
+                </select>
+                <br>
+                <br>
+                <label for="reason" class='field'>Why is it important/not important to you?</label>
+                <br>
+                <br>
+                <input type=text  id="reason" placeholder="Write something here" class='longresponse' >
+                <br>
+                <br>
+                <label for="personaleffect" class="field">Do you think climate change currently or will affect you personally?</label>
+                <br>
+                <br>
+                <select id="personaleffect" name="personaleffect" >
+                    <option value=''> -- select an option -- </option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br>
+                <br>
+                <label for="whateffect" class='field'>If yes, what ways does climate change currently/will affect you?</label>
+                <br>
+                <br>
+                <input type=text id="whateffect" placeholder="Write something here" class='longresponse' >
+                <br>
+            </fieldset>
+            <fieldset class="innerform">
+                <legend>What Can We Do?</legend>
+                <label for="responsibility" class="field">Who do you think should have the <strong>main</strong> responsibility for tackling climate change?</label>
+                <br>
+                <br>
+                <select id="responsibility" name="responsibility" >
+                    <option value=''> -- select an option -- </option>
+                    <option value="International organisations(e.g. the UN)">International organisations(e.g. the UN)</option>
+                    <option value="National government">National government</option>
+                    <option value="Local government">Local government</option>
+                    <option value="Business and industry">Business and industry</option>
+                    <option value="Individuals">Individuals</option>
+                </select>
+                <br>
+                <br>
+                <label for="takenaction?" class="field">Have you ever taken, or currently take any action out of concernt for climate change?</label>
+                <br>
+                <br>
+                <select id="takenaction?" name="takenaction?"  > 
+                    <option value=''> -- select an option -- </option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br>
+                <br>
+                <label for="strategy" class="field">What do you think we can do about climate change?</label>
+                <br>
+                <br>
+                <input type=text  id="strategy" class='longresponse' placeholder="Write something here">
+               
+            </fieldset>
+            <br>
+            <input type="button" value="Submit" onclick='checksavesend()' > &nbsp &nbsp<input type="reset" value="Reset">
+
+        </fieldset>
+    </form>
+</body>

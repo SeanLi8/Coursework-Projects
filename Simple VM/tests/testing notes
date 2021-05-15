@@ -1,0 +1,19 @@
+add: normal add operation functionalitty
+call_pass_ptrs: passes poitrs between functions and edits values at the pointer
+cal_ret: normal call and return operations functionalitty
+equ: normal equ operation functionalitty
+fnf: file given in comman line does not exist
+invalid_symbol1: symbol that has not been declared is accessed by mov operation, note that this implementation does not check validity for stack symbols with value less than the current hishest valued symbol in the stack frame, 
+invalid_symbol2: symbol that has not been declared is accessed by print operation
+could be checked if 32 byte array which keeps track of which symbols have been declared is pushed onto the stack fram for each function. Conbsidering performance this was not done
+invalid_ptr1: address outside of stack memory is accessed by mov operation , note this does not have the problem of the stack symbols which cannot tell if some symbols have been declared. the pointer is valid as long as it points to inside stack memory
+invalid_ptr2: address outside of stack memory is accessed by print operation 
+move: normal move operation functionalitty
+no_arguments: no argumenst are given 
+no_entry: no FUNC 0 is defined 
+not: normal not operation functioality
+print: normal print operation functionalitty
+ref: normal ref operation functionalitty
+stk_overflow: code with infinite cal operations causes stack stk_overflow
+
+note: jmp and cntdwn are the ed testcases
